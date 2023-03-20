@@ -7,16 +7,12 @@ export default function Weather() {
   const [humidity, setHumidity] = useState("");
   const [wind, setWind] = useState("");
   const [city, setCity] = useState("");
-  const [icon, setIcon] = useState("");
 
   function showTemperature(response) {
     setTemperature(Math.round(response.data.main.temp));
     setDescription(response.data.weather[0].description);
     setHumidity(response.data.main.humidity);
     setWind(Math.round(response.data.wind.speed));
-    setIcon(
-      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-    );
   }
   function handleSubmit(event) {
     event.preventDefault();
@@ -38,9 +34,6 @@ export default function Weather() {
         <li>Description: {description}</li>
         <li>Humidity: {humidity}%</li>
         <li>Wind: {wind} km/h</li>
-        <li>
-          Icon: <img src={icon} />
-        </li>
       </ul>
     </div>
   );
