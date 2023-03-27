@@ -49,7 +49,8 @@ h2 {
 .cityBox {
   text-align: left;
   border: 1px solid;
-  padding: 30px;
+  padding: 30px 150px;
+  margin: 10px 20px;
   border-color: #dee2e6;
   color: #595c5f;
   border-radius: 7px;
@@ -60,14 +61,15 @@ h2 {
 }
 
 .indicators {
-  background: rgb(68, 115, 243);
+  background: rgb(108, 145, 247);
   border-radius: 70px;
+  color: cornsilk;
   font-style: italic;
   position: relative;
-  padding: 10px 100px;
-  margin: 20px 130px;
-  top: -140px;
-  right: -130px;
+  padding: 20px 120px;
+  margin: 10px 250px;
+  top: -200px;
+  right: -120px;
 }
 
 .part-sun {
