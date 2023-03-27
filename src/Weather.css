@@ -1,0 +1,95 @@
+.current-location-button:hover {
+  background: rgb(211, 211, 211);
+  transition: 150ms ease-in-out;
+}
+
+footer {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+ul {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+h1 {
+  color: cornsilk;
+  font-family: "Shrikhand", cursive;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Roboto Serif", serif;
+}
+
+#celsius {
+  font-size: 30px;
+}
+
+#current-location-button {
+  margin: 10px 0px 20px 0px;
+}
+
+#temp {
+  font-size: 30px;
+}
+
+#time {
+  font-size: 30px;
+}
+
+.cityBox {
+  text-align: left;
+  border: 1px solid;
+  padding: 30px;
+  border-color: #dee2e6;
+  color: #595c5f;
+  border-radius: 7px;
+}
+
+.name {
+  color: #595c5f;
+}
+
+.indicators {
+  background: rgb(68, 115, 243);
+  border-radius: 70px;
+  font-style: italic;
+  position: relative;
+  padding: 10px 100px;
+  margin: 20px 130px;
+  top: -140px;
+  right: -130px;
+}
+
+.part-sun {
+  color: rgb(219, 179, 0);
+  font-size: 30px;
+}
+
+.cloud {
+  color: rgb(124, 163, 175);
+  font-size: 30px;
+}
+
+.rain {
+  color: rgb(0, 96, 126);
+  font-size: 30px;
+}
+
+.Weather {
+  padding: 5px;
+}
+
+.weather-icon {
+  font-size: 30px;
+  color: #000;
+}
