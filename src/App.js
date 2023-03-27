@@ -1,11 +1,13 @@
-"./App.css";
+import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <p>Weather Engine</p>
+      <div className="container">
+        <Weather defaultCity="Kyiv" />
+      </div>
     </div>
   );
 }
-
 export default App;
